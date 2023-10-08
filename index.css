@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 16px;
+    background-color:rgba(128, 128, 128, 0.536);
+}
+.container{
+    width: 520px;
+    height: 580px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+    max-width: 100%;
+}
+.element{
+    border: none;
+}
+
+   
+.outputarea{
+    background-color: #ffffff;
+    
+    grid-column: span 3;
+}
+.reset{
+    background-color:rgb(19, 141, 137) ;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.reset:hover{
+    color: rgb(255, 255, 255);
+    transition: background-color 0.3s ease;
+}
+.op {
+    background-color: rgba(128, 128, 128, 0.501);
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+.op:hover {
+    background-color: #808080; 
+    transition: background-color 0.3s ease; 
+}
+
+.n {
+    background-color: black;
+    color: #ffffff;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+.n:hover {
+    background-color: #333;
+    transition: background-color 0.3s ease;
+}
+.equals:hover{
+    background-color: #333;
+    transition: background-color 0.3s ease;
+}
+.equals{
+    background-color: black;
+    color: #ffffff;
+    font-size: 20px;
+    justify-content: center;
+    font-weight: 500;
+}
+.output{
+    background-color: #ffffff;
+    display: flex;
+    font-family: sans-serif;
+    line-height: 20px;
+    /* width: 100%;  */
+    height: 100%;
+    align-items: center;
+    padding-left: 15px;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 30px;
+    color: #000000;
+}
